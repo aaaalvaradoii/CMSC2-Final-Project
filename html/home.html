@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- width=device-width part sets the width of the page to follow the screen-width -->
+		<!-- initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser. -->		
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<!-- Bootstrap for carousel -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="../css/home.css">
+		
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+		
+		<title>SAM-UP | Home</title>
+	</head>
+	
+	<body>
+		 <nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="home.html">
+						<img src="../img/logo.png" alt="samup_logo" id="logo">
+					</a>
+				</div>
+				
+				<ul class="nav navbar-nav">
+					 <li><a href="aboutus.html">About</a></li>
+					 <li><a href="events.html">Events</a></li>
+					 <li><a href="members.html">Members</a></li>
+					 <li><a href="officers.html">Officers</a></li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+					  <li><a href="contactus.html"><span class="contactus"></span>Contact Us</a></li>
+				</ul>
+				
+				
+		  </div>
+		</nav>
+		
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			</ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="../img/samup.JPG" alt="samup_orgphoto" style="width: 100%;">
+						<div class="carousel-caption">
+							<h4>Welcome to the website of the</h4>
+							<h1>Society of Applied Mathematics of UPLB</h1>
+							<button onclick="window.location.href='aboutus.html'">Learn More</button>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="../img/ibmq_1.JPG" alt="ibmq" style="width: 100%";>
+						<div class="carousel-caption">
+							<h3>Inter Bloc Mathematics Quiz</h3>
+							<p>IBMQ is an inter-bloc competition open to all freshmen students of UPLB</p>
+						</div>
+					</div>
+
+				 </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+				  </a>
+		</div>
+		
+		<div class="black div">
+				
+				<div class="hr">
+				  <span class="section">Events</span>
+				</div>
+				
+				<a href="events.html">
+					<div class="eventitem ibmq" id="card">
+						<p>IBMQ</p>
+					</div>
+				</a>
+				<a href="events.html">
+					<div class="eventitem mathquest" id="card">
+						<p>MATH QUEST</p>
+					</div>
+				</a>
+				<a href="events.html">
+					<div class="eventitem annivweek" id="card">
+						<p>ANNIV WEEK</p>
+					</div>
+				</a>
+		</div>
+		
+		<div class="gray div">
+				<div class="hr">
+				  <span class="section">Members</span>
+				</div>
+				<a href="members.html">
+					<div class="section members" id="card"> </div>
+				</a>
+		</div>
+		
+		<div class="black div">
+				<div class="hr">
+				  <span class="section">Officers</span>
+				</div>
+				<a href="officers.html">
+					<div class="section officers" id="card"> </div>
+				</a>
+		</div>
+		
+		<div class="gray div" id="about">
+				<img src="../img/logo.png" alt="logo" id="logo">
+				<p>Society of Applied Mathematics of UPLB <br>
+						Institute of Mathematical Sciences and Physics <br>
+						University of the Philippines - Los Ba&ntildeos
+				</p>
+				<a href="https://www.facebook.com/SocietyOfAppliedMathematicsOfUPLB/"> <img src="../img/fb.png" alt="fb_icon" id="icon"> </a>
+				<a href="https://profiles.google.com/100366337722291500453/about"> <img src="../img/gmail.png" alt="gmail_icon" id="icon"> </a>
+				<a href="https://twitter.com/SAMUP_Official"> <img src="../img/twitter.png" alt="twitter_icon" id="icon"> </a>
+		</div>
+		
+		
+		
+	</body>
+</html>

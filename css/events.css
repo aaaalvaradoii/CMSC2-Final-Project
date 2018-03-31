@@ -1,0 +1,60 @@
+body{
+	background-color: #303030;
+	}
+#IBMQ {
+	color:#ffff00;
+	font-size:3vw;
+	font-family:Arvo, serif;
+	padding-left: 5%;
+	padding-top: 1%;
+	}
+	
+.box {
+	width: 65%;
+	height: 150px;
+	background-color: #FAFAFA;
+	padding: 2% 2% 2% 2%;
+	margin-left: 5%;
+	float: left;
+	margin-right: 5%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#MQ {
+	background-color: #212121;
+	}
+
+.box2 {
+	width: 65%;
+	height: 150px;
+	background-color: #FAFAFA;
+	padding: 2% 2% 2% 2%;
+	margin-right: 5%;
+	margin-left: 5%;
+	float: right;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#action{
+	color:#FFFFFF;
+	font-size:2vw;
+	font-family:Arvo, serif;
+	padding-right: 5%;
+	text-align: right;
+}
+#inter{
+	color:#FFFFFF;
+	font-size:2vw;
+	font-family:Arvo, serif;
+	padding-left: 5%;
+	text-align: left;
+}
+
+p {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+}
+
+#photo {
+	margin-left: 5%;
+}

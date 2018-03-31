@@ -1,0 +1,57 @@
+body{
+		background-color:#303030;
+	}
+#starter {
+	margin-top: -2%;
+}
+#affmembers{	width:25%;
+				height:10%;
+				background-color:black;
+				float:left;
+				color:#ffff00;
+			}
+#resmembers{	width:25%;
+				height:10%;
+				background-color:black;
+				float:left;
+				color:#ffff00;
+			}
+#alumni{	width:25%;
+			height:10%;
+			background-color:black;
+			float:left;
+			color:#ffff00;
+		}
+#honmembers{	width:25%;
+				height:10%;
+				background-color:black;
+				float:left;
+				color:#ffff00;
+			}
+.box{
+		width:50%;
+		background-color:#FAFAFA;
+		margin-left:5%;
+		padding:2%;
+		font-family: Roboto, sans-serif;
+		font-size: 16px;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	}
+h1{
+	font-style:Arvo, serif;
+}
+h6{
+	font-style:Arvo, serif;
+}
+
+#main {
+	padding-bottom: 5%;
+}
+p{		
+		color:white;
+		font-size:30px;
+		font-family:Arvo, serif;
+		padding-left: 5%;
+		padding-bottom: 1%;
+		margin-top: 14%;
+}
